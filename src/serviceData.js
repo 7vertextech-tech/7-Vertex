@@ -54,6 +54,26 @@ import aiAutomation4 from './assets/services/ai22.jpeg';
 import aiAutomationVideo2 from './assets/services/aid2.mp4';
 import aiAutomation5 from './assets/services/ai3.jpeg';
 import aiAutomationVideo3 from './assets/services/aid3.mp4';
+import videoEditingVideo from './assets/services/vd1.mp4';
+import videoEditingVideo2 from './assets/services/vd2.mp4';
+import videoEditingVideo3 from './assets/services/vd3.mp4';
+import videoEditingVideo4 from './assets/services/vd4.mp4';
+import videoEditingVideo5 from './assets/services/vd5.mp4';
+import videoEditingVideo6 from './assets/services/vd6.mp4';
+import SEO1 from './assets/services/seo1.jpeg';
+import SEO2 from './assets/services/seo2.jpeg';
+import SEO3 from './assets/services/seo3.jpeg';
+import SEOVideo from './assets/services/seod1.mp4';
+import SEOVideo2 from './assets/services/seod2.mp4';
+import SEOVideo3 from './assets/services/seod3.mp4';
+import Enterprise1 from './assets/services/ent1.jpeg';
+import Enterprise2 from './assets/services/ent2.jpeg';
+import Enterprise3 from './assets/services/ent3.jpeg';
+import Enterprise4 from './assets/services/ent4.png';
+import EnterpriseVideo from './assets/services/entd1.mp4';
+import EnterpriseVideo2 from './assets/services/entd2.mp4';
+import EnterpriseVideo3 from './assets/services/entd3.mp4';
+import EnterpriseVideo4 from './assets/services/entd4.mp4';
 export const SERVICE_DETAILS = {
   'web-development': {
     title: 'Web Development',
@@ -88,20 +108,20 @@ export const SERVICE_DETAILS = {
   'enterprise-database-solutions': {
     title: 'Enterprise Database Solutions (Oracle APEX)',
     description: 'Oracle APEX and SQL-based systems built for internal business operations.',
-    images: [],
-    videos: [],
+    images: [Enterprise1, Enterprise2, Enterprise3, Enterprise4],
+    videos: [EnterpriseVideo, EnterpriseVideo2, EnterpriseVideo3, EnterpriseVideo4],
   },
   'seo-digital-marketing': {
     title: 'SEO & Digital Marketing',
     description: 'On-page and off-page SEO, business citations, social media presence and forum outreach.',
-    images: [],
-    videos: [],
+    images: [SEO1, SEO2, SEO3],
+    videos: [SEOVideo, SEOVideo2, SEOVideo3],
   },
-  'video-editing': {
+'video-editing': {
     title: 'Video Editing',
     description: 'Reels, ad creatives, and promo edits designed for social platforms.',
     images: [],
-    videos: [],
+    videos: [videoEditingVideo, videoEditingVideo2, videoEditingVideo3, videoEditingVideo4, videoEditingVideo5, videoEditingVideo6],
   },
   'ai-automation': {
     title: 'AI Automation',
