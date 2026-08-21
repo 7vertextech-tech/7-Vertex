@@ -2,6 +2,12 @@ import React, { useState } from 'react';
 import './App.css';
 import { useNavigate } from 'react-router-dom';
 import logo from './assets/logo.jpeg';
+import portfolio1 from './assets/services/web2.jpeg';
+import portfolio2 from './assets/services/ecom1.jpeg';
+import portfolio3 from './assets/services/mob1.jpeg';
+import portfolio4 from './assets/services/backend2.jpeg';
+import portfolio5 from './assets/services/web4.jpeg';
+import portfolio6 from './assets/services/ecom3.jpeg';
 
 // ⚠️ STEP 1: Sign up at https://formspree.io (free)
 // STEP 2: Create a new form, copy its endpoint URL
@@ -520,28 +526,58 @@ function HomePage() {
         </div>
       </section>
 
-      {/* PORTFOLIO */}
+           {/* PORTFOLIO */}
       <section className="portfolio" id="portfolio">
         <p className="section-small">OUR WORK</p>
         <h2>Featured Projects</h2>
 
         <div className="portfolio-container">
           <div className="project-card">
-            <div className="project-image">Zavira App</div>
-            <h3>Zavira Platform</h3>
-            <p>Smart wearable & mobile application for safety response.</p>
+            <img src={portfolio1} alt="Nexora Platform" className="project-image" />
+            <div className="project-card-body">
+              <h3>Nexora Platform</h3>
+              <p>AI-powered SaaS dashboard with real-time analytics.</p>
+            </div>
           </div>
 
           <div className="project-card">
-            <div className="project-image">Web App</div>
-            <h3>SaaS Dashboard</h3>
-            <p>Real-time analytics tool built with a modern tech stack.</p>
+            <img src={portfolio2} alt="E-Commerce Store" className="project-image" />
+            <div className="project-card-body">
+              <h3>E-Commerce Store</h3>
+              <p>Full online store with secure checkout and catalog management.</p>
+            </div>
           </div>
 
           <div className="project-card">
-            <div className="project-image">Mobile UI</div>
-            <h3>E-Commerce Store</h3>
-            <p>High-converting mobile shopping platform.</p>
+            <img src={portfolio3} alt="Mobile App" className="project-image" />
+            <div className="project-card-body">
+              <h3>Mobile Banking App</h3>
+              <p>Cross-platform app built with Flutter for a smooth native feel.</p>
+            </div>
+          </div>
+
+          <div className="project-card">
+            <img src={portfolio4} alt="Backend System" className="project-image" />
+            <div className="project-card-body">
+              <h3>Enterprise API System</h3>
+              <p>Scalable backend architecture powering multiple client apps.</p>
+            </div>
+          </div>
+
+          <div className="project-card">
+            <img src={portfolio5} alt="Business Website" className="project-image" />
+            <div className="project-card-body">
+              <h3>Business Website</h3>
+              <p>Modern, responsive site built to convert visitors into leads.</p>
+            </div>
+          </div>
+
+          <div className="project-card">
+            <img src={portfolio6} alt="Property Marketplace" className="project-image" />
+            <div className="project-card-body">
+              <h3>Property Marketplace</h3>
+              <p>Real estate listing platform with location-based search.</p>
+            </div>
           </div>
         </div>
       </section>
