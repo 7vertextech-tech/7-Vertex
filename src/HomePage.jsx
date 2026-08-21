@@ -6,7 +6,7 @@ import logo from './assets/logo.jpeg';
 // ⚠️ STEP 1: Sign up at https://formspree.io (free)
 // STEP 2: Create a new form, copy its endpoint URL
 // STEP 3: Paste it below, replacing YOUR_FORM_ID
-const FORM_ENDPOINT = 'https://formspree.io/f/mgawrqjg';
+const FORM_ENDPOINT = 'https://formspree.io/f/mljrzoqk';
 
 const ALL_SERVICES = [
   'Website Development',
@@ -606,7 +606,8 @@ function HomePage() {
         <div className="contact-info">
           <div className="info-item">
             <span className="info-label">Email</span>
-            <a href="mailto:7vertexgroup@gmail.com">7vertexgroup@gmail.com</a>
+            <a href="mailto:7vertextech@gmail.com">7vertextech@gmail.com
+</a>
           </div>
           <div className="info-item">
             <span className="info-label">Based in</span>
