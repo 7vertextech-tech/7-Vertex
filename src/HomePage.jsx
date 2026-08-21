@@ -708,10 +708,10 @@ function HomePage() {
             </div>
             <div className="footer-col">
               <h4>Connect</h4>
-              <a href="https://linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
-              <a href="https://instagram.com" target="_blank" rel="noreferrer">Instagram</a>
-              <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
-              <a href="mailto:7vertexgroup@gmail.com">Email</a>
+              <a href="https://www.linkedin.com/in/7-vertex-a43a7442b" target="_blank" rel="noreferrer">LinkedIn</a>
+              <a href="https://www.instagram.com/7vertextech/" target="_blank" rel="noreferrer">Instagram</a>
+              <a href="https://facebook.com/profile.php?id=61593262875913" target="_blank" rel="noreferrer">Facebook</a>
+              <a href="mailto:7vertextech@gmail.com">Email</a>
             </div>
           </div>
         </div>
