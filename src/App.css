@@ -435,51 +435,56 @@ footer img {
 /* TECHNOLOGIES */
 .tech-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-  gap: 18px;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 22px;
+  margin-top: 30px;
 }
 
 .tech-card {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap: 12px;
+  gap: 14px;
   border: 1px solid rgba(255, 255, 255, 0.08);
-  background: rgba(255, 255, 255, 0.02);
-  padding: 24px 12px;
-  border-radius: 14px;
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.01));
+  padding: 18px;
+  border-radius: 16px;
   transition: 0.3s ease;
+  overflow: hidden;
+  min-width: 0;
 }
 
 .tech-card:hover {
-  border-color: #00d2ff;
-  background: rgba(0, 210, 255, 0.06);
-  transform: translateY(-5px);
-  box-shadow: 0 10px 25px rgba(0, 210, 255, 0.12);
+  border-color: rgba(0, 210, 255, 0.4);
+  background: linear-gradient(145deg, rgba(0, 210, 255, 0.08), rgba(168, 85, 247, 0.05));
+  transform: translateY(-6px);
+  box-shadow: 0 14px 28px rgba(0, 210, 255, 0.15);
 }
 
 .tech-icon-wrap {
-  width: 48px;
-  height: 48px;
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(255, 255, 255, 0.05);
+  background: #ffffff;
   border-radius: 12px;
+  overflow: hidden;
+  padding: 6px;
 }
 
 .tech-icon {
-  width: 28px;
-  height: 28px;
+  width: 26px;
+  height: 26px;
   object-fit: contain;
+  display: block;
 }
 
 .tech-name {
-  color: #e2e8f0;
-  font-size: 13px;
+  color: #fff;
+  font-size: 14px;
   font-weight: 600;
-  text-align: center;
+  min-width: 0;
 }
 
 /* WHY 7VERTEX */

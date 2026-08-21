@@ -467,27 +467,30 @@ function HomePage() {
             { name: 'PostgreSQL', icon: 'postgresql/postgresql-original.svg' },
             { name: 'Next.js', icon: 'nextjs/nextjs-original.svg' },
             { name: 'TypeScript', icon: 'typescript/typescript-original.svg' },
-            { name: 'Tailwind CSS', icon: 'tailwindcss/tailwindcss-plain.svg' },
+            { name: 'Tailwind CSS', icon: 'tailwindcss/tailwindcss-original.svg' },
             { name: 'Kotlin', icon: 'kotlin/kotlin-original.svg' },
             { name: 'Vercel', icon: 'vercel/vercel-original.svg' },
             { name: 'Docker', icon: 'docker/docker-original.svg' },
             { name: 'WordPress', icon: 'wordpress/wordpress-plain.svg' },
-            { name: 'Shopify', icon: 'shopify/shopify-original.svg' },
-            { name: 'AWS', icon: 'amazonwebservices/amazonwebservices-original.svg' },
-            { name: 'Git', icon: 'git/git-original.svg' },
+            { name: 'Shopify', icon: null, emoji: '🛍️' },
+            { name: 'AWS', icon: 'amazonwebservices/amazonwebservices-original-wordmark.svg' },            { name: 'Git', icon: 'git/git-original.svg' },
             { name: 'GitHub', icon: 'github/github-original.svg' },
             { name: 'Figma', icon: 'figma/figma-original.svg' },
             { name: 'CSS', icon: 'css3/css3-original.svg' },
             { name: 'HTML', icon: 'html5/html5-original.svg' },
-          ].map(({ name, icon }) => (
+                    ].map(({ name, icon, emoji }) => (
             <div className="tech-card" key={name}>
               <div className="tech-icon-wrap">
-                <img
-                  src={`https://cdn.jsdelivr.net/gh/devicons/devicon/icons/${icon}`}
-                  alt={name}
-                  className="tech-icon"
-                  loading="lazy"
-                />
+                {emoji ? (
+                  <span style={{ fontSize: '24px' }}>{emoji}</span>
+                ) : (
+                  <img
+                    src={`https://cdn.jsdelivr.net/gh/devicons/devicon/icons/${icon}`}
+                    alt={name}
+                    className="tech-icon"
+                    loading="lazy"
+                  />
+                )}
               </div>
               <span className="tech-name">{name}</span>
             </div>
