@@ -546,17 +546,38 @@ function HomePage() {
         </div>
       </section>
 
-      {/* ABOUT */}
+            {/* ABOUT */}
       <section className="about" id="about">
-        <p className="section-small">ABOUT US</p>
-        <h2>Why We Started 7Vertex</h2>
-        <p className="about-text">
-          7Vertex was started to close the gap between businesses and the
-          technology they need to grow — clean websites, functional apps and
-          marketing that actually brings customers in. We stay a small,
-          hands-on team on purpose, so every project gets real attention
-          instead of getting lost in a queue.
-        </p>
+        <div>
+          <p className="section-small">ABOUT US</p>
+          <h2>Why We Started 7Vertex</h2>
+          <p className="about-text">
+            7Vertex was started to close the gap between businesses and the
+            technology they need to grow — clean websites, functional apps and
+            marketing that actually brings customers in. We stay a small,
+            hands-on team on purpose, so every project gets real attention
+            instead of getting lost in a queue.
+          </p>
+        </div>
+
+        <div className="about-stats">
+          <div className="about-stat-card">
+            <div className="about-stat-number">10+</div>
+            <div className="about-stat-label">Services Offered</div>
+          </div>
+          <div className="about-stat-card">
+            <div className="about-stat-number">100%</div>
+            <div className="about-stat-label">Client-Focused</div>
+          </div>
+          <div className="about-stat-card">
+            <div className="about-stat-number">24h</div>
+            <div className="about-stat-label">Response Time</div>
+          </div>
+          <div className="about-stat-card">
+            <div className="about-stat-number">Remote</div>
+            <div className="about-stat-label">Friendly Team</div>
+          </div>
+        </div>
       </section>
 {/* CONTACT — POPUP MODAL */}
 {contactModalOpen && (

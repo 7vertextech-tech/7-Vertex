@@ -661,15 +661,58 @@ footer img {
 
 /* ABOUT */
 .about {
-  background: #090d16;
-  text-align: left;
-  max-width: 800px;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  padding: 90px 60px;
+  background: radial-gradient(circle at 15% 30%, rgba(0, 210, 255, 0.06), transparent 45%),
+              radial-gradient(circle at 85% 70%, rgba(168, 85, 247, 0.06), transparent 45%),
+              #05070a;
+  flex-wrap: wrap;
+}
+
+.about > *:first-child {
+  flex: 1;
+  min-width: 300px;
 }
 
 .about-text {
-  color: #94a3b8;
+  color: rgba(255, 255, 255, 0.65);
   font-size: 16px;
   line-height: 1.8;
+  max-width: 520px;
+  margin-top: 16px;
+}
+
+.about-stats {
+  flex: 1;
+  min-width: 280px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.about-stat-card {
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.01));
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 28px 20px;
+  text-align: center;
+}
+
+.about-stat-number {
+  font-size: 34px;
+  font-weight: 800;
+  background: linear-gradient(135deg, #00d2ff, #a855f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.about-stat-label {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 13px;
+  margin-top: 8px;
 }
 
 /* GET A QUOTE / CONTACT FORMS */
